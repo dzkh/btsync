@@ -6,7 +6,7 @@ Every DPI system detects such traffic with no issues. There is no secret data ch
 - 1.4.111+ - They established Resilio Inc. after ending coop with Bittorrent as RnD. Added sharing via links and rewritten internals.
 - 2.0.x - this is selective sync verion. Every sharing request can be approved,single file can be shared. Request-approval are unstable in any DPI-enabled network plus relies on external services. Can be turned off and should.
 
-- **MacOs**
+**MacOs**
   
 Os may detect app as malware. However no engines on Virustotal (7d38b81cf0ef553dd1f67f719e6e21ba4f745723ccb905c668470e44104caf56) were able to find something and thus the only issue here is a Mac OS Gatekeeper.
 As of my own opinion malware exists in builds from 2016. Permissions requested are equal to permissions needed by ReiKey. ReiKey used to detect keyloggers. But maybe they control hotkeys that way?
@@ -19,7 +19,7 @@ As of my own opinion malware exists in builds from 2016. Permissions requested a
 - Additionally you can strip i386 binary to decrease file size: lipo -remove i386 BitTorrent\ Sync -output btsync.
 - The Gatekeeper probably needs to be disabled.
 
-- **Linux**
+**Linux**
   
 For 1.3 and 1.4 it wasn't planned to support glibc 2.3 enlarged Linux'es. Do not expect stable operation with that builds.
 Glibc shipped that days by the distros maintainers was 2.x and no one never added glibc 2.3 to stable updates channel: https://unix.stackexchange.com/questions/224255/upgrading-ubuntu-14-04-to-glibc-2-20-or-greater
@@ -30,6 +30,6 @@ As a proof: listing of publicly availble glibc sources on gnu.org: https://ftp.g
 ![image](https://github.com/user-attachments/assets/53bd01f8-642e-4fb5-9aaa-956a8295d1e4)
 
 
-- **FreeBSD**
+**FreeBSD**
   
 Since inotify-like subsystem wasn't available the only notification about changes in files you sharing is folderRescanInterval. Should be nice for big files & huge folderRescanInterval.
