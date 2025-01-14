@@ -1,8 +1,7 @@
 BitTorrent Sync was a proprietary peer-to-peer file synchronization tool available for Windows, Mac, Linux, Android, iOS, Windows Phone, Amazon Kindle Fire and FreeBSD.
 
 Transport protocol is well descibed here by the author: https://github.com/arvidn/libtorrent
-Every DPI system detects such traffic with no issues. There is no secret data channels possible for ministro del coca and cia.
-(No one knew about side-channel attacks that days😁)
+Every DPI system detects such traffic with no issues. Everything is visible.
 
 - 1.3 - classic version without links support. Preferable to use in close environments. This version will probably out of support by tracker and the only way to find remote peer in this case is known hosts.
 - 1.4.111+ - They established Resilio Inc. after ending coop with Bittorrent as RnD. Added sharing via links and rewritten internals.
