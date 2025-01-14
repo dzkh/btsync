@@ -1,4 +1,5 @@
 BitTorrent Sync was a proprietary peer-to-peer file synchronization tool available for Windows, Mac, Linux, Android, iOS, Windows Phone, Amazon Kindle Fire and FreeBSD.
+
 Transport protocol: https://github.com/arvidn/libtorrent
 Every DPI system detects such traffic with no issues. There is no secret data channels for ministro del coca and cia 😁
 
