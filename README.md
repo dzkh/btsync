@@ -8,7 +8,6 @@ Every DPI system detects such traffic with no issues. There is no secret data ch
 **MacOs**
 Os may detect app as malware.
 ![Screenshot 2025-01-14 at 10 39 42](https://github.com/user-attachments/assets/dce9e329-3a13-4cab-bd49-4a679ba7fc07)
-
 ![Screenshot 2025-01-14 at 01 12 14](https://github.com/user-attachments/assets/0ebd564d-5526-4973-b52d-e5fa589bd68f)
 
 However no engines on Virustotal (7d38b81cf0ef553dd1f67f719e6e21ba4f745723ccb905c668470e44104caf56) were able to find something and thus the only issue here is a Mac OS Gatekeeper.
