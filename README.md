@@ -12,8 +12,9 @@ Os may detect app as malware.
 However no engines on Virustotal (7d38b81cf0ef553dd1f67f719e6e21ba4f745723ccb905c668470e44104caf56) were able to find something and thus the only issue here is a Mac OS Gatekeeper.
 As of my own opinion malware exists in builds from 2016. Permissions requested are equal to permissions needed by ReiKey. ReiKey used to detect keyloggers. But maybe they control hotkeys that way?
 
-To solve that you can create new self-signed cert then resign app components using simple syntax: codesign -s "cert-name-in-Keychain" -f --timestamp -o runtime -i com.bittorrent.Sync BitTorrent\ Sync.app/Contents/MacOS/BitTorrent\ Sync
-Additionally you can strip i386 binary to decrease file size: lipo -remove i386 BitTorrent\ Sync -output btsync
+- To solve that you can create new self-signed cert then resign app components using simple syntax: codesign -s "cert-name-in-Keychain" -f --timestamp -o runtime -i com.bittorrent.Sync BitTorrent\ Sync.app/Contents/MacOS/BitTorrent\ Sync.
+- Additionally you can strip i386 binary to decrease file size: lipo -remove i386 BitTorrent\ Sync -output btsync.
+- The Gatekeeper probably needs to be disabled. Need to investigate that.
 
 **Linux**
 For 1.3 and 1.4 it wasn't planned to support i386, x86_64 with old glibc. Do not expect that.
