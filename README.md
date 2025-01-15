@@ -4,7 +4,7 @@ Transport protocol is well descibed here by the author: https://github.com/arvid
 Every DPI system detects such traffic with no issues. Everything is visible.
 
 - 1.3 - classic version without links support. Preferable to use in close environments. This version will probably out of support by tracker and the only way to find remote peer in this case is known hosts.
-- 1.4.111+ - They established Resilio Inc. after ending coop with Bittorrent as RnD. Added sharing via links and rewritten internals.
+- 1.4.111+ - Last attempt of digital transformation. They established Resilio Inc. soon after ending RnD coop. with Bittorrent Inc. Added sharing via links and rewritten internals.
 - 2.0.x - this is selective sync verion. Every sharing request can be approved,single file can be shared. Request-approval are unstable in any DPI-enabled network plus relies on external services. Can be turned off and should.
 
 **MacOs**
