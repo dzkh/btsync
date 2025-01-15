@@ -23,7 +23,7 @@ As of my own opinion malware exists in builds from 2016. Permissions requested a
 **Linux**
   
 For 1.3 and 1.4 it wasn't planned to support glibc 2.3 enlarged Linux'es. Do not expect stable operation with that builds.
-Glibc shipped that days by the distros maintainers was 2.x and no one never added glibc 2.3 to stable updates channel: https://unix.stackexchange.com/questions/224255/upgrading-ubuntu-14-04-to-glibc-2-20-or-greater
+Glibc shipped that days by the distros maintainers was 2.18 mostly and no one never added glibc 2.3 to stable updates channel: https://unix.stackexchange.com/questions/224255/upgrading-ubuntu-14-04-to-glibc-2-20-or-greater
 
 Reason they published glibc_2.3 builds of Bittorent Sync was (and still) unknown.
 
